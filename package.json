@@ -1,0 +1,24 @@
+{
+  "name": "marian",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Covered calls, credit lines, fixed-term savings and payout strips on Robinhood Chain, each behind one sentence",
+  "packageManager": "pnpm@10.32.1",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test && pnpm forge:test",
+    "forge:build": "forge build --root contracts",
+    "forge:test": "forge test --root contracts",
+    "fork:test": "forge test --root contracts --match-path 'test/Fork.t.sol'",
+    "dev": "pnpm --filter @marian/web dev",
+    "reference:prices": "python3 scripts/reference-prices.py",
+    "measure:accrual": "node scripts/measure-accrual.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "playwright": "^1.63.0",
+    "typescript": "^5.6.0",
+    "viem": "^2.21.0",
+    "vite": "^5.4.0"
+  }
+}

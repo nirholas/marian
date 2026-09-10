@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.screenshots/
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+data/demo-deployment.json
+.env
+.env.local
+*.log

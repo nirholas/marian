@@ -1,0 +1,23 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = "test"
+script = "script"
+solc_version = "0.8.28"
+optimizer = true
+optimizer_runs = 1000
+via_ir = true
+
+[fmt]
+line_length = 120
+
+[lint]
+# Every window in this protocol is minutes or longer: an option expiry, a halt, a term deposit, an
+# accrual window. Robinhood Chain is a single-sequencer Orbit rollup, so there is no validator set
+# to shop timestamps between, and nothing here is decided on a sub-block boundary.
+exclude_lints = ["block-timestamp"]
+
+[rpc_endpoints]
+robinhood = "${RHC_RPC_URL}"
+robinhood_testnet = "${RHC_TESTNET_RPC_URL}"

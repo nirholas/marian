@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "types": [
+      "vite/client",
+      "node"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@marian/sdk": [
+        "../../packages/sdk/src/index.ts"
+      ],
+      "@data/*": [
+        "../../data/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "vite.config.ts"
+  ]
+}
