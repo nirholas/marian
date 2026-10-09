@@ -118,3 +118,7 @@ number is unflattering and it is the number.
 ## Licence
 
 MIT.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=nirholas/marian&type=Date)](https://www.star-history.com/#nirholas/marian&Date)
