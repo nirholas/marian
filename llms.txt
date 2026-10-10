@@ -1,0 +1,26 @@
+# marian
+
+> Name your price. Get paid to wait. Covered calls, credit lines, fixed-term savings and payout strips on tokenized equities, each behind one sentence.
+
+marian is an open-source repository by nirholas, part of the three.ws ecosystem.
+
+## Docs
+
+- [README](https://github.com/nirholas/marian/blob/HEAD/README.md): install, usage and reference
+- [Why this chain, and why these four](https://github.com/nirholas/marian/blob/HEAD/README.md#why-this-chain-and-why-these-four)
+- [Run it](https://github.com/nirholas/marian/blob/HEAD/README.md#run-it)
+- [Repository](https://github.com/nirholas/marian/blob/HEAD/README.md#repository)
+- [Documentation](https://github.com/nirholas/marian/blob/HEAD/README.md#documentation)
+- [What is deliberately not here](https://github.com/nirholas/marian/blob/HEAD/README.md#what-is-deliberately-not-here)
+- [Licence](https://github.com/nirholas/marian/blob/HEAD/README.md#licence)
+- [AGENTS.md](https://github.com/nirholas/marian/blob/HEAD/AGENTS.md): guidance for coding agents
+- [Full text for LLMs](https://github.com/nirholas/marian/blob/HEAD/llms-full.txt): the README inlined
+
+## Project
+
+- [Source](https://github.com/nirholas/marian)
+- [Issues](https://github.com/nirholas/marian/issues)
+- [Discussions](https://github.com/nirholas/marian/discussions)
+- [Homepage](https://three.ws)
+- [three.ws](https://three.ws): the platform this is part of
+- [All repositories by nirholas](https://github.com/nirholas/nirholas#readme)

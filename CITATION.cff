@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "marian"
+abstract: "Name your price. Get paid to wait. Covered calls, credit lines, fixed-term savings and payout strips on tokenized equities, each behind one sentence."
+repository-code: "https://github.com/nirholas/marian"
+url: "https://three.ws"
+authors:
+  - name: three.ws
+    website: "https://three.ws"
