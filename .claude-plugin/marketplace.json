@@ -1,0 +1,22 @@
+{
+  "name": "marian",
+  "owner": {
+    "name": "nirholas"
+  },
+  "description": "Quote covered calls, puts and unit conversions for Marian contracts on Robinhood Chain with its TypeScript SDK.",
+  "plugins": [
+    {
+      "name": "marian-sdk",
+      "source": "./plugins/marian-sdk",
+      "description": "Quote covered calls, puts and unit conversions for Marian contracts on Robinhood Chain with its TypeScript SDK.",
+      "category": "finance",
+      "tags": [
+        "robinhood-chain",
+        "sdk",
+        "options",
+        "viem",
+        "defi"
+      ]
+    }
+  ]
+}
